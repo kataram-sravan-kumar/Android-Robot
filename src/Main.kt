@@ -13,8 +13,8 @@ fun main() {
     robot.ringAlarm("6:00 AM")
     println()
 
-    /*Let the robot know whether you'll take black coffee or not along with the number of spoons of sugar*/
-    robot.makeCoffee(Coffee(true, 1))
+    /*Let the robot know whether you'll take tea or not along with the number of spoons of sugar*/
+    robot.makeTea(Tea(true, 1))
     println()
 
     /*Input the water temperature in Celsius*/

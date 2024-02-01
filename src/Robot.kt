@@ -6,10 +6,10 @@ class Robot(val name: String) {
 
     fun ringAlarm(time: String) = println("Good morning!! Its $name, The time is already $time, please wake up!!!")
 
-    fun makeCoffee(coffee: Coffee) = if (coffee.black) {
-        println("Your black coffee with ${coffee.spoonsOfSugar} spoons of sugar is ready!")
+    fun makeTea(tea: Tea) = if (tea.hot) {
+        println("Your hot tea with ${tea.spoonsOfSugar} spoons of sugar is ready!")
     } else {
-        println("Your coffee with ${coffee.spoonsOfSugar} spoons of sugar is ready!")
+        println("Your tea with ${tea.spoonsOfSugar} spoons of sugar is ready!")
     }
 
     fun heatWater(temperature: Int) = println("Bath water with $temperature is ready, take a bath now!")
@@ -51,6 +51,5 @@ class Robot(val name: String) {
             println("You do not have shirt of this color. May be its time to go for a pant shopping.")
         }
     }
-
 
 }
